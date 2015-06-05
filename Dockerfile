@@ -27,6 +27,7 @@ RUN a2enmod php5 && \
     a2enmod proxy_connect && \
     a2enmod proxy_http && \
     a2enmod proxy_ftp
+    a2enmod rewrite
 
 # enable imap extention for php
 RUN echo -e '; comment out next line to disable imap extension in php\nextension=imap.so' > /etc/php5/conf.d/imap.ini
