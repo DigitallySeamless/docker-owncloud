@@ -26,7 +26,7 @@ RUN a2enmod php5 && \
     a2enmod proxy && \
     a2enmod proxy_connect && \
     a2enmod proxy_http && \
-    a2enmod proxy_ftp
+    a2enmod proxy_ftp && \
     a2enmod rewrite
 
 # enable imap extention for php
